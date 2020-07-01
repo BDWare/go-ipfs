@@ -1,14 +1,14 @@
-module github.com/ipfs/go-ipfs
+module github.com/bdware/go-ipfs
+
+replace github.com/ipfs/go-ipfs => ./ // v0.6.0
 
 require (
 	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
-	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bren2010/proquint v0.0.0-20160323162903-38337c27106d
 	github.com/coreos/go-systemd/v22 v22.0.0
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elgris/jsondiff v0.0.0-20160530203242-765b5c24c302
-	github.com/fatih/color v1.9.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gabriel-vasile/mimetype v1.1.0
 	github.com/go-bindata/go-bindata/v3 v3.1.3
@@ -29,6 +29,7 @@ require (
 	github.com/ipfs/go-filestore v0.0.3
 	github.com/ipfs/go-fs-lock v0.0.5
 	github.com/ipfs/go-graphsync v0.0.5
+	github.com/ipfs/go-ipfs v0.0.0-00010101000000-000000000000
 	github.com/ipfs/go-ipfs-blockstore v0.1.4
 	github.com/ipfs/go-ipfs-chunker v0.0.5
 	github.com/ipfs/go-ipfs-cmds v0.2.9
@@ -86,7 +87,6 @@ require (
 	github.com/libp2p/go-tcp-transport v0.2.0
 	github.com/libp2p/go-ws-transport v0.3.1
 	github.com/mattn/go-runewidth v0.0.9 // indirect
-	github.com/miekg/dns v1.1.29 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mr-tron/base58 v1.1.3
 	github.com/multiformats/go-multiaddr v0.2.2
@@ -106,10 +106,7 @@ require (
 	go.uber.org/fx v1.12.0
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
-	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2 // indirect
 	golang.org/x/sys v0.0.0-20200523222454-059865788121
-	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 )
 
